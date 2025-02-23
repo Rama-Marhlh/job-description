@@ -11,7 +11,7 @@ A streamlined job posting system built with Streamlit that generates professiona
 - Interactive rich text editor
 - Feedback-based description refinement
 - Comprehensive job posting management
-- RTL support for Arabic content
+-  support for Arabic content
 - Streamlined user interface
 
 ## Models Used
@@ -47,13 +47,6 @@ cd job-posting-system
 ```bash
 pip install -r requirements.txt
 ```
-
-Required packages include:
-- streamlit
-- streamlit-quill
-- torch
-- requests
-- vllm
 
 ## Environment Setup
 
@@ -159,22 +152,9 @@ Common issues and solutions:
    - Check for valid input formatting
    - Verify model server status
 
-## Support
 
-For technical support or questions:
-1. Check the troubleshooting guide
-2. Review error messages and logs
-3. Contact system administrators
-
-## Future Improvements
-
-Planned enhancements:
-- Additional language support
-- Enhanced feedback system
-- Template management
-- Export functionality
-- Integration with job boards
-- Advanced formatting options
+## to do
+A Flask-based API with webhook support is required for production deployment, allowing real-time processing and integration with external systems.
 
 ## Contributing
 
