@@ -1,0 +1,37 @@
+# Core dependencies
+streamlit
+streamlit-quill
+
+# Deep Learning and GPU support
+torch
+vllm
+
+# HTTP and API handling
+requests
+
+# Date and time handling
+python-dateutil
+
+# Data processing
+pandas
+numpy
+
+# File handling and text processing
+python-docx
+regex
+
+# Security and authentication
+python-dotenv
+
+# Development tools
+black
+flake8
+pytest
+
+# Development environments
+ipython
+jupyter
+
+# Note: CUDA dependencies should be installed based on your system's GPU and drivers
+# cuda-python  # Uncomment if using CUDA
+# cudatoolkit  # Uncomment if using CUDA
